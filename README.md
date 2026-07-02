@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003458-blue)](https://doi.org/10.82901/nemar.on003458)
+
 Healthy control college students.  23 subjects completed the 3-armed bandit task with oscillating probabilities.    For example, the 'blue' stim would slowly move from 20% reinforcing to 90% then back to 20 over many trials.  The other 'red' and 'green' stims would move similarly, but in different phase.  See Fig 1 of the paper.  This makes the task great for investigating reward processing & reward prediction error in the service of novel task set generation.
 
 Task included in Matlab programming language.  
