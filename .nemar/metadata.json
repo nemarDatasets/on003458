@@ -1,50 +1,14 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG: Three armed bandit gambling task",
+  "description": "This dataset comprises EEG recordings from 23 healthy college students performing a three-armed bandit gambling task with dynamically oscillating reward probabilities. The task was designed to investigate neural correlates of reward processing and reward prediction error during adaptive decision-making and task set generation. Data were collected in 2014 at the University of New Mexico's Cognitive Rhythms and Computation Lab.",
+  "methods_description": "EEG data were collected while subjects performed a three-armed bandit task with three stimulus options (blue, red, green) that oscillated between 20% and 90% reinforcement probability in different phases. Corrugator EMG and skin conductance measurements were also recorded on most participants; however, data quality for these measurements was limited and they were not extensively analyzed. Task implementation was programmed in MATLAB.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "James F Cavanagh  jcavanagh@unm.edu": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds003458.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on003458",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003458",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".bmp",
-    ".fdt",
-    ".gitattributes",
-    ".json",
-    ".m",
-    ".md",
-    ".set",
-    ".tsv",
-    ".txt",
-    ".xlsx"
-  ],
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 23 healthy college students performing a three-armed bandit gambling task with dynamically oscillating reward probabilities. The task was designed to investigate neural correlates of reward processing and reward prediction error during adaptive decision-making and task set generation. Stimuli (blue, red, and green) had reinforcement probabilities that varied sinusoidally over trials, enabling examination of how the brain tracks and responds to changing contingencies.",
-  "methods_description": "EEG data were collected from 23 healthy control subjects performing a three-armed bandit task implemented in MATLAB. The task involved three stimuli with oscillating reinforcement probabilities (ranging from 20% to 90%) that varied in phase across conditions. Corrugator EMG and skin conductance measurements were also recorded on most participants, though data quality was variable. Data collection occurred in 2014 at the Cognitive Rhythms and Computation Lab, University of New Mexico.",
   "keywords": [
     {
       "term": "EEG"
@@ -56,20 +20,69 @@
       "term": "decision making"
     },
     {
-      "term": "prediction error"
+      "term": "gambling task"
+    },
+    {
+      "term": "reward prediction error"
     },
     {
       "term": "bandit task"
     },
     {
+      "term": "multi-armed bandit"
+    },
+    {
       "term": "oscillating probabilities"
     },
     {
-      "term": "gambling"
+      "term": "EMG"
+    },
+    {
+      "term": "skin conductance"
+    },
+    {
+      "term": "adaptive decision-making"
     },
     {
       "term": "task set generation"
     }
   ],
-  "source_hash": "4e650d0e4dac64710c5c1f7e1256fb22dbc6a88e06e4f4c52544ee13f5292d32"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on003458",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003458.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003458",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "5.1 GB (67 files)"
+  ],
+  "formats": [
+    ".bmp",
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".xlsx",
+    ".yml"
+  ],
+  "source_hash": "e01fbafb77f14d4420b34722bceb3450577a12d7a22777b277886c09a82d7d82"
 }
