@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Three armed bandit gambling task",
-  "description": "This dataset comprises EEG recordings from 23 healthy college students performing a three-armed bandit gambling task with dynamically oscillating reward probabilities. The task was designed to investigate neural correlates of reward processing and reward prediction error during adaptive decision-making and task set generation. Data were collected in 2014 at the University of New Mexico's Cognitive Rhythms and Computation Lab.",
-  "methods_description": "EEG data were collected while subjects performed a three-armed bandit task with three stimulus options (blue, red, green) that oscillated between 20% and 90% reinforcement probability in different phases. Corrugator EMG and skin conductance measurements were also recorded on most participants; however, data quality for these measurements was limited and they were not extensively analyzed. Task implementation was programmed in MATLAB.",
+  "description": "EEG recordings from 23 healthy college students performing a three-armed bandit gambling task with oscillating reward probabilities. Each stimulus slowly shifts between low and high reinforcement probability in different phases, making the task suited to studying reward processing, reward prediction error, and novel task-set generation. Corrugator EMG and skin conductance were also collected for most participants.",
+  "methods_description": "Data were collected in 2014 at the Cognitive Rhythms and Computation Lab, University of New Mexico. Participants completed a Matlab-based three-armed bandit task in which reinforcement probabilities for each stimulus oscillated between 20% and 90% over many trials. Corrugator EMG and skin conductance were recorded for most participants, though quality was noted as dubious. Preprocessing scripts are included in the code folder.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,37 +14,31 @@
       "term": "EEG"
     },
     {
+      "term": "three-armed bandit"
+    },
+    {
       "term": "reward processing"
-    },
-    {
-      "term": "decision making"
-    },
-    {
-      "term": "gambling task"
     },
     {
       "term": "reward prediction error"
     },
     {
-      "term": "bandit task"
+      "term": "gambling"
     },
     {
-      "term": "multi-armed bandit"
-    },
-    {
-      "term": "oscillating probabilities"
-    },
-    {
-      "term": "EMG"
+      "term": "reinforcement learning"
     },
     {
       "term": "skin conductance"
     },
     {
-      "term": "adaptive decision-making"
+      "term": "EMG"
     },
     {
-      "term": "task set generation"
+      "term": "decision making"
+    },
+    {
+      "term": "healthy controls"
     }
   ],
   "related_identifiers": [
@@ -69,7 +63,7 @@
     "eeg"
   ],
   "sizes": [
-    "5.1 GB (67 files)"
+    "4.72 GB (67 files)"
   ],
   "formats": [
     ".bmp",
